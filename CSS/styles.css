@@ -1,0 +1,66 @@
+img {
+  display: block;
+  margin: auto;
+}
+.header {
+    background-repeat: repeat-y;
+}
+
+
+* {
+  font-family: Georgia;
+  background-color: rgb(90, 238, 238);
+}
+nav li {
+  float: left;
+  width: 10%;
+  padding: 5px 10px;
+  background-color: #5ef0e8;
+  border: 1px solid #000;
+  text-align: center;
+  color: #0f0f0f;
+}
+
+.background {
+  text-align: center;
+  color: rgb(119, 0, 103);
+}
+
+.CONTENT {
+  text-align: center;
+  color: rgb(97, 1, 84);
+}
+
+
+.Usehashtags {
+  color: darkblue;
+}
+
+.Identifyyouraudience {
+  color: rgb(67, 83, 231)
+}
+
+[href] {
+  color: rgb(10, 0, 5);
+}
+
+a[href*="marketing"] {
+  height: 50px;
+}
+
+a:hover {
+  color: rgb(233, 24, 87)
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(17, 72, 54)
+}
+
+h2.CONTENT {
+  color: rgb(78, 6, 51);
+}
+
+p.warning {
+  color: red;
+}
